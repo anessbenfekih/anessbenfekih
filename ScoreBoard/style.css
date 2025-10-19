@@ -1,0 +1,77 @@
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.btn{
+    font-family: inherit;
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.points{
+  color: rgba(182, 236, 34, 0.952);
+  font-size: 50px;
+}
+#bgc{
+  border-radius: 25px;
+  background-color: blueviolet;
+  width: 650px;
+  height: 300px;
+  border: 1px solid black;
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.score{
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; 
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+.btns{
+  margin-top: 15px;
+  text-align: center;
+  width: 150px;
+}
+h1{
+  color: whitesmoke;
+  margin-bottom: 8px;
+  text-align: center;
+}
+p{
+  color: whitesmoke;
+  font-size: 15px;
+  margin-bottom: 80px;
+}
+span{
+  display: inline-block ;
+  width: 50px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid whitesmoke;
+
+}
+#timer{
+  align-self:center ;
+  margin-top: 80px;
+}
+.btnt{
+  margin: 0 5px;
+}
+
+#start{
+  font-family: inherit;
+  background-color: blueviolet;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+}

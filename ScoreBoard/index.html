@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="bgc">
+        <div id="home">
+            <h1 id="hh">HOME</h1>
+            <div class="score">
+                <p class="points" id="ho">0</p>
+            </div>
+            <div class="btns">
+                <button onclick="add1h()" id="bh1" class="btn">+1</button>
+                <button onclick="add2h()" id="bh2" class="btn">+2</button>
+                <button onclick="add3h()" id="bh3" class="btn">+3</button>
+            </div>
+        </div>
+        <div id="timer">
+            <p>timer : <span id="time">00:00</span></p>
+            <button class="btnt" id="start" onclick="start()">START</button>
+            <button class="btn btnt" onclick="reset()">RESET</button>
+            <button class="btn btnt" id="stop" onclick="stop()">STOP</button>
+        </div>
+
+        <div id="guest">
+
+                <h1 id="hg">GUEST</h1>
+                <div class="score"><p class="points" id="gs">0</p></div>
+            <div class="btns">
+                <button onclick="add1g()" id="bg1" class="btn">+1</button>
+                <button onclick="add2g()" id="bg2" class="btn">+2</button>
+                <button onclick="add3g()" id="bg3" class="btn">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="jv.js"></script>
+</body>
+</html>
