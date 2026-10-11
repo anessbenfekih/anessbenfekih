@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @anessbenfekih
 - 👀 I’m interested in full stack engineer
-- 🌱 I’m currently learning html css js 
+- 🌱 I’m currently following bootdev backend cours
 - 💞️ I’m looking to collaborate on project to many experience as possible
 
 <!---
